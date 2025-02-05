@@ -1,0 +1,25 @@
+name: XCTest
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-ios:
+    runs-on: macos-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Run tests on iPhone 12 Simulator with iOS 17.2
+    - name: Run Tests on iPhone 12 Simulator (iOS 17.2)
+      run: |
+        xcodebuild test \
+          -scheme 'UITestingSample' \
+          -destination 'platform=iOS Simulator,name=iPhone 12,OS=17.2'
