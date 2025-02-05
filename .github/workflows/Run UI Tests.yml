@@ -10,11 +10,12 @@ on:
 
 jobs:
   test-ios:
+    name: Run UI Tests
     runs-on: macos-latest
 
     steps:
     # Checkout the repository
-    - name: Checkout repository
+    - name: Checkout Code
       uses: actions/checkout@v4
 
     # Run tests on iPhone 12 Simulator with iOS 17.2
