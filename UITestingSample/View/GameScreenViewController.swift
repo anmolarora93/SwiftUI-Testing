@@ -2,7 +2,6 @@
 //  GameScreenViewController.swift
 //  UITestingSample
 //
-//
 
 import UIKit
 
