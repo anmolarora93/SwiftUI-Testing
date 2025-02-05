@@ -18,8 +18,8 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    # Run tests on iPhone 12 Simulator with iOS 17.2
-    - name: Run Tests on iPhone 12 Simulator (iOS 17.2)
+    # Run tests on iPhone 15 Simulator with iOS 17.2
+    - name: Run Tests on iPhone 15 Simulator (iOS 17.2)
       run: |
         xcodebuild test \
           -scheme 'UITestingSample' \
