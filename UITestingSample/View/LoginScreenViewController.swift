@@ -30,6 +30,7 @@ final class LoginScreenViewController: UIViewController {
     // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("View did load")
         viewModel = LoginScreenViewModel()
         self.addSpinner()
     }
