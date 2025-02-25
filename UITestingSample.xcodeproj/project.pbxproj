@@ -17,7 +17,6 @@
 		9B400B4F2D53838700E6A127 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B400B4E2D53838700E6A127 /* LoginScreenViewController.swift */; };
 		9B400B512D53857A00E6A127 /* LoginScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B400B502D53857A00E6A127 /* LoginScreenViewModel.swift */; };
 		9B400B542D5385DD00E6A127 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B400B532D5385DD00E6A127 /* Users.swift */; };
-		9B400B562D5392F600E6A127 /* UITestingSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B400B552D5392F600E6A127 /* UITestingSampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		9B400B4E2D53838700E6A127 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		9B400B502D53857A00E6A127 /* LoginScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewModel.swift; sourceTree = "<group>"; };
 		9B400B532D5385DD00E6A127 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
-		9B400B552D5392F600E6A127 /* UITestingSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestingSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 		9B400B432D537F8800E6A127 /* UITestingSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9B400B552D5392F600E6A127 /* UITestingSampleUITestsLaunchTests.swift */,
 				9B400B442D537F8800E6A127 /* UITestingSampleUITests.swift */,
 			);
 			path = UITestingSampleUITests;
@@ -266,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B400B452D537F8800E6A127 /* UITestingSampleUITests.swift in Sources */,
-				9B400B562D5392F600E6A127 /* UITestingSampleUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
